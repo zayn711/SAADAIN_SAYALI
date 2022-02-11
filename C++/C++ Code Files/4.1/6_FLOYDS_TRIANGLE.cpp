@@ -6,8 +6,10 @@ Floyd's Triangle
 7 8 9 10
 11 12 13 14 15
 */
+
 #include <iostream>
 using namespace std;
+
 int main()
 {
     int n, m = 0;
@@ -22,4 +24,5 @@ int main()
         }
         cout << endl;
     }
+    return 0;
 }
